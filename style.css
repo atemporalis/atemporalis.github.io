@@ -2474,6 +2474,7 @@ section {
 
 .ornament {
   max-width: 90px;
+  position: fixed;
 }
 
 /* For Firefox */
@@ -2524,4 +2525,32 @@ p {
 
 #date-container p {
   font-size: x-small;
+}
+
+/* Media query for phone-sized screens */
+@media (max-width: 767px) {
+  /* Adjust 767px if needed */
+  .ornament,
+  #date-container,
+  #visitor-count {
+    display: none; /* Hide the elements */
+  }
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small Screens (Phones) */
+@media (max-width: 767px) {
+  .responsive-heading {
+    font-size: 2em; /* Smaller font size on phones */
+  }
+  .container {
+    padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+}
+/* Medium Screens (Tablets)*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .responsive-heading {
+    font-size: 2.2em;
+  }
 }
