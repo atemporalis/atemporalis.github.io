@@ -33,7 +33,7 @@
 
   --atemporalisRender: url();
   --atemporalisRender2: url();
-  --atemporalisBorder: url("./bg-pattern.png");
+  --atemporalisBorder: url("./assets-c/bg-pattern.png");
   --atemporalisCat: url();
   --atemporalisIcon: url();
 
@@ -2528,7 +2528,7 @@ p {
 }
 
 /* Media query for phone-sized screens */
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   /* Adjust 767px if needed */
   .ornament,
   #date-container,
